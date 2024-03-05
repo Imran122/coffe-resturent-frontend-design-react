@@ -15,7 +15,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className="grid grid-cols-9 gap-4 py-4 container mx-auto ">
+      <div className="grid grid-cols-9 gap-4 py-4 container mx-auto px-8">
         <div className="col-span-3">
           <ul className="lg:flex gap-10 mb-3  justify-center items-center  space-x-4  hidden">
             <li className="font-third_font_medium font-light text-primary_text text-lg">
