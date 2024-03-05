@@ -1,13 +1,16 @@
-import { useState } from "react";
 import "./App.css";
+import Banner from "./components/Banner";
+import Header from "./components/shared/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <p className="text-red-500 font-secondary_font text-4xl">dgfdsg</p>
-    </>
+    <div className="">
+      <div className="border border-b-[#D9D9D9]">
+        <Header />
+      </div>
+
+      <Banner />
+    </div>
   );
 }
 
