@@ -19,9 +19,7 @@ export default function VideoComponnet() {
           </div>
         </div>
         <div className="lg:col-span-2 md:col-span-4 text-center lg:border-r border-[#D9D9D9]">
-          <h2 className="font-fourth_font_abril text-2xl text-primary_text leading-7 font-bold ">
-            Our Opening Hours
-          </h2>
+          <h2 className="medium-title-text-design ">Our Opening Hours</h2>
           <p className="text-primary_text leading-4 font-fourth_font_abril text-base py-4">
             Mon - Sat: 07:00 - 18:00
           </p>
@@ -31,9 +29,7 @@ export default function VideoComponnet() {
           </p>
         </div>
         <div className="lg:col-span-2 md:col-span-4 text-center md:border-r border-[#D9D9D9]">
-          <h2 className="font-fourth_font_abril text-2xl text-primary_text leading-7 font-bold ">
-            Our Opening Hours
-          </h2>
+          <h2 className="medium-title-text-design ">Our Opening Hours</h2>
           <p className="text-primary_text leading-4 font-fourth_font_abril text-base py-4">
             Mon - Sat: 07:00 - 18:00
           </p>
@@ -43,9 +39,7 @@ export default function VideoComponnet() {
           </p>
         </div>
         <div className="lg:col-span-2 md:col-span-4 text-center">
-          <h2 className="font-fourth_font_abril text-2xl text-primary_text leading-7 font-bold ">
-            Our Opening Hours
-          </h2>
+          <h2 className="medium-title-text-design ">Our Opening Hours</h2>
           <p className="text-primary_text leading-4 font-fourth_font_abril text-base py-4">
             Mon - Sat: 07:00 - 18:00
           </p>

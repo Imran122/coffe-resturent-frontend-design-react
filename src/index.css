@@ -34,7 +34,10 @@
 
 @layer components {
   .normal-text-design {
-    @apply font-primary_font text-primary_text opacity-50 text-shadow-custom text-base font-normal leading-6;
+    @apply font-primary_font text-primary_text opacity-50 text-shadow-custom md:text-base text-xs font-normal leading-6;
+  }
+  .medium-title-text-design {
+    @apply font-fourth_font_abril md:text-2xl text-lg text-primary_text leading-7 font-bold;
   }
 }
 
