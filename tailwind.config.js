@@ -13,12 +13,12 @@ export default {
       },
       textColor: {
         primary_text: "#270A05",
-        secondary__text: "#86371C",
+        secondary_text: "#86371C",
       },
       fontFamily: {
-        primary_font: "ValueSansPro",
-        secondary_font: "bakildahistori",
-        third_font_medium: "ValueSansPromedium",
+        primary_font: "Value Sans Pro",
+        secondary_font: "Bakilda Histori",
+        third_font_medium: "Value Sans Pro Medium",
       },
     },
   },

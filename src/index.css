@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: ValueSansPro;
+  font-family: "Value Sans Pro";
   src: url("../src/assets/Fonts/Value Sans Pro/ValueSansPro-Regular.ttf")
     format("opentype");
 }
 @font-face {
-  font-family: ValueSansPromedium;
+  font-family: "Value Sans Pro Medium";
   src: url("../src/assets/Fonts/Value Sans Pro/ValueSansPro-Medium.ttf")
     format("opentype");
 }
 @font-face {
-  font-family: bakildahistori;
+  font-family: "Bakilda Histori";
   src: url("../src/assets/Fonts/Bakilda/bakilda-histori.ttf") format("opentype");
 }
 
@@ -21,4 +21,15 @@
   --primary-colour: #270a05;
   --secondary-colour: #86371c;
   --third-colour: #ffa958;
+}
+@layer utilities {
+  .text-shadow-custom {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@layer components {
+  .normal-text-design {
+    @apply font-primary_font text-primary_text opacity-50 text-shadow-custom text-base font-normal leading-6;
+  }
 }
