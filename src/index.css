@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: ValueSansPro;
+  src: url("../src/assets/Fonts/Value Sans Pro/ValueSansPro-Regular.ttf")
+    format("opentype");
+}
+@font-face {
+  font-family: ValueSansPromedium;
+  src: url("../src/assets/Fonts/Value Sans Pro/ValueSansPro-Medium.ttf")
+    format("opentype");
+}
+@font-face {
+  font-family: bakildahistori;
+  src: url("../src/assets/Fonts/Bakilda/bakilda-histori.ttf") format("opentype");
+}
+
+:root {
+  --primary-colour: #270a05;
+  --secondary-colour: #86371c;
+  --third-colour: #ffa958;
+}
