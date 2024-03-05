@@ -4,6 +4,7 @@ import CoffeMenu from "./components/CoffeMenu";
 import TestReceipe from "./components/TestReceipe";
 import VideoComponnet from "./components/VideoComponnet";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <WhyChooseUs />
       <CoffeMenu />
       <TestReceipe />
+      <Footer />
     </div>
   );
 }

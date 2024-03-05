@@ -47,3 +47,7 @@
   border: 2px solid #d9d9d9;
   border-radius: 500px 500px 30px 30px;
 }
+.footer-bg {
+  background-image: url("/src/assets/images/bg/footer-bg.png");
+  background-size: 100% 100%;
+}
