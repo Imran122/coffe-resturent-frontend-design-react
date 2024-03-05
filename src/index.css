@@ -16,6 +16,11 @@
   font-family: "Bakilda Histori";
   src: url("../src/assets/Fonts/Bakilda/bakilda-histori.ttf") format("opentype");
 }
+@font-face {
+  font-family: "Abril Display Bold";
+  src: url("../src/assets/Fonts/Abril/Abril_Display_Bold.otf")
+    format("opentype");
+}
 
 :root {
   --primary-colour: #270a05;

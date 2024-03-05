@@ -19,6 +19,7 @@ export default {
         primary_font: "Value Sans Pro",
         secondary_font: "Bakilda Histori",
         third_font_medium: "Value Sans Pro Medium",
+        fourth_font_abril: "Abril Display Bold",
       },
     },
   },
