@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import CoffeMenu from "./components/CoffeMenu";
 import VideoComponnet from "./components/VideoComponnet";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Header from "./components/shared/Header";
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <VideoComponnet />
       <WhyChooseUs />
+      <CoffeMenu />
     </div>
   );
 }

@@ -25,7 +25,6 @@
 :root {
   --primary-colour: #270a05;
   --secondary-colour: #86371c;
-  --third-colour: #ffa958;
 }
 @layer utilities {
   .text-shadow-custom {
@@ -37,4 +36,11 @@
   .normal-text-design {
     @apply font-primary_font text-primary_text opacity-50 text-shadow-custom text-base font-normal leading-6;
   }
+}
+
+.mid-sec {
+  box-sizing: border-box;
+
+  border: 2px solid #d9d9d9;
+  border-radius: 500px 500px 30px 30px;
 }
