@@ -93,14 +93,22 @@ export default function Header() {
               </li>
             </div>
             <div onClick={toggleMenu}>
-              <li className="border py-2 mt-2 px-3 rounded shadow font-semibold">
-                Pages
+              <li className="border py-2 mt-2 px-3 rounded shadow font-third_font_medium font-light text-primary_text text-lg flex gap-2  items-center">
+                Pages{" "}
+                <span className="text-primary_colour text-lg">
+                  {" "}
+                  <IoIosArrowDown />
+                </span>
               </li>
             </div>
 
             <div onClick={toggleMenu}>
-              <li className="border py-2 mt-2 px-3 rounded shadow font-semibold">
+              <li className="border py-2 mt-2 px-3 rounded shadow font-third_font_medium font-light text-primary_text text-lg flex gap-2  items-center">
                 Menu
+                <span className="text-primary_colour text-lg">
+                  {" "}
+                  <IoIosArrowDown />
+                </span>
               </li>
             </div>
 
