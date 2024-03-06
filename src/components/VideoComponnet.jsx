@@ -4,7 +4,7 @@ import arrow from "../assets/images/video/video.png";
 export default function VideoComponnet() {
   return (
     <div className="w-full bg-primary_background mb-28">
-      <div className="container mx-auto md:grid md:grid-cols-8 flex flex-col  gap-4 justify-center items-center">
+      <div className="container mx-auto md:grid md:grid-cols-8 flex flex-col  gap-8 justify-center items-center">
         <div className="lg:col-span-2 md:col-span-4 lg:-mb-10 ">
           <div className="bg-secondary_colour w-[319px] h-[326px] flex flex-col justify-center items-center">
             <img src={arrow} />
@@ -18,7 +18,7 @@ export default function VideoComponnet() {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-2 md:col-span-4 text-center lg:border-r border-[#D9D9D9]">
+        <div className="lg:col-span-2 md:col-span-4  text-center lg:border-r border-[#D9D9D9]">
           <h2 className="medium-title-text-design ">Our Opening Hours</h2>
           <p className="text-primary_text leading-4 font-fourth_font_abril text-base py-4">
             Mon - Sat: 07:00 - 18:00
