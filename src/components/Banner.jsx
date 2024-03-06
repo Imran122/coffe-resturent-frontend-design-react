@@ -14,14 +14,14 @@ export default function Banner() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % 3); // Assuming there are three slides, change the value accordingly if there are more slides
-    }, 5000); // Adjust the interval as needed
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % 3);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {/* bg images */}
       <div className="absolute left-0 top-0">
         <img src={flowerleft} />
