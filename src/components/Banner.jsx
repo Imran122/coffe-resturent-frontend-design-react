@@ -34,10 +34,9 @@ export default function Banner() {
       </div>
       {/* bg images */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5 }}
+        initial={{ opacity: 0, x: "-100vh" }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
         className="border-l border-[#D9D9D9] container lg:mx-auto lg:grid lg:grid-cols-8 gap-4 px-16 py-28"
       >
         {currentIndex === 0 && (
@@ -46,9 +45,15 @@ export default function Banner() {
               <h4 className="font-bold font-secondary_font text-lg text-primary_text lg:py-4">
                 WELCOME TO OUR
               </h4>
-              <h2 className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4">
+              <motion.h2
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4"
+              >
                 unlocklive
-              </h2>
+              </motion.h2>
               <h3 className=" font-normal font-secondary_font text-primary_text text-3xl mb-4">
                 Elevating Your Coffee Experience
               </h3>
@@ -113,9 +118,14 @@ export default function Banner() {
               <h4 className="font-bold font-secondary_font text-lg text-primary_text lg:py-4">
                 TEST OUR BEST FOOD
               </h4>
-              <h2 className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4">
+              <motion.h2
+                initial={{ opacity: 0, x: "-400px" }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5 }}
+                className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4"
+              >
                 unlocklive
-              </h2>
+              </motion.h2>
               <h3 className=" font-normal font-secondary_font text-primary_text text-3xl mb-4">
                 Elevating Your Food Experience
               </h3>
@@ -179,9 +189,14 @@ export default function Banner() {
               <h4 className="font-bold font-secondary_font text-lg text-primary_text lg:py-4">
                 TEST DINNER MENU
               </h4>
-              <h2 className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4">
+              <motion.h2
+                initial={{ opacity: 0, x: "-400px" }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5 }}
+                className=" font-normal font-secondary_font text-primary_text lg:text-8xl md:text-5xl text-4xl leading-[124px] lg:py-4"
+              >
                 unlocklive
-              </h2>
+              </motion.h2>
               <h3 className=" font-normal font-secondary_font text-primary_text text-3xl mb-4">
                 Elevating Your Dinner Experience
               </h3>
