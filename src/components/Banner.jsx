@@ -60,7 +60,7 @@ export default function Banner() {
               </p>
               <div className="lg:flex gap-10 mt-5">
                 <button className="py-4 px-5 text-center bg-secondary_colour rounded-2xl text-white font-third_font_medium">
-                  EXPLORE OUR MENU
+                  EXPLORE OUR COFFE
                 </button>
 
                 <div className="lg:flex gap-28 justify-center items-center">
@@ -81,7 +81,27 @@ export default function Banner() {
                   </div>
                 </div>
               </div>
+              {/* doted design for carusel */}
+              <div className="md:flex hidden  gap-2 mt-16">
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 0 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 1 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 2 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+              </div>
+              {/* doted design for carusel */}
             </div>
+
             <div className="col-span-4">
               <img src={cupbanner} alt="cup" />
             </div>
@@ -107,7 +127,7 @@ export default function Banner() {
               </p>
               <div className="lg:flex gap-10 mt-5">
                 <button className="py-4 px-5 text-center bg-secondary_colour rounded-2xl text-white font-third_font_medium">
-                  EXPLORE OUR MENU
+                  EXPLORE OUR FOOD
                 </button>
 
                 <div className="lg:flex gap-28 justify-center items-center">
@@ -128,6 +148,25 @@ export default function Banner() {
                   </div>
                 </div>
               </div>
+              {/* doted design for carusel */}
+              <div className="md:flex hidden  gap-2 mt-16">
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 0 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 1 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 2 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+              </div>
+              {/* doted design for carusel */}
             </div>
             <div className="col-span-4">
               <img src={banner4} alt="cup" />
@@ -174,6 +213,25 @@ export default function Banner() {
                   </div>
                 </div>
               </div>
+              {/* doted design for carusel */}
+              <div className="md:flex hidden  gap-2 mt-16">
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 0 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 1 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+                <div
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex === 2 ? "bg-secondary_colour" : "bg-gray-300"
+                  }`}
+                ></div>
+              </div>
+              {/* doted design for carusel */}
             </div>
             <div className="col-span-4">
               <img src={banner5} alt="cup" />
@@ -181,7 +239,17 @@ export default function Banner() {
           </>
         )}
       </motion.div>
+
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-2 md:hidden">
+        {[0, 1, 2].map((index) => (
+          <div
+            key={index}
+            className={`w-3 h-3 rounded-full ${
+              currentIndex === index ? "bg-secondary_colour" : "bg-gray-300"
+            }`}
+          ></div>
+        ))}
+      </div>
     </div>
   );
 }
-/* Ellipse 1550 */
