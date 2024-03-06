@@ -26,7 +26,7 @@ export default function TestReceipe() {
       );
     }
   };
-  console.log(startIndex);
+
   return (
     <div className="bg-primary_background py-4">
       <div className="container mx-auto">

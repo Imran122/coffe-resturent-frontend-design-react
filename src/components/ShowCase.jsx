@@ -55,7 +55,10 @@ export default function ShowCase() {
       <div>
         <ul className="flex flex-wrap gap-6 justify-center items-center py-4">
           <li
-            className="border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            className={`${
+              selectedCategory === "All" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("All")}
           >
             All
@@ -63,35 +66,48 @@ export default function ShowCase() {
           {/* Add onClick handlers to other category items */}
           {/* For example: */}
           <li
-            className="cursor-pointer"
+            className={`${
+              selectedCategory === "Burger" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("Burger")}
           >
             Burger
           </li>
           <li
-            className="cursor-pointer"
+            className={`${
+              selectedCategory === "Drinks" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("Drinks")}
           >
             Drinks
           </li>
           <li
-            className="cursor-pointer"
+            className={`${
+              selectedCategory === "Pizza" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("Pizza")}
           >
             Pizza
           </li>
           <li
-            className="cursor-pointer"
+            className={`${
+              selectedCategory === "Dinner" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("Dinner")}
           >
             Dinner
           </li>
           <li
-            className="cursor-pointer"
+            className={`${
+              selectedCategory === "Lunch" &&
+              "border border-secondary_colour rounded-full py-3 px-3 text-secondary_text cursor-pointer"
+            }`}
             onClick={() => handleCategorySelect("Lunch")}
-          >
-            Lunch
-          </li>
+          ></li>
         </ul>
         {/*  image section design */}
         <LazyMotion features={domAnimation}>
