@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import CoffeMenu from "./components/CoffeMenu";
+import ShowCase from "./components/ShowCase";
 import TestReceipe from "./components/TestReceipe";
 import VideoComponnet from "./components/VideoComponnet";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -19,6 +20,7 @@ function App() {
       <WhyChooseUs />
       <CoffeMenu />
       <TestReceipe />
+      <ShowCase />
       <Footer />
     </div>
   );
