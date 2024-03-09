@@ -29,8 +29,8 @@ export default function TestReceipe() {
 
   return (
     <div className="bg-primary_background py-4">
-      <div className="container mx-auto">
-        <div className="grid md:grid-cols-8 gap-4">
+      <div className="">
+        <div className="lg:pl-52 md:px-10 px-7 lg:grid lg:grid-cols-8 gap-4">
           <div className="col-span-3 md:mb-0 mb-5">
             <div className="flex gap-6 items-center py-4">
               <img className="h-[2px]" src={arrow} alt="arrow" />
@@ -51,7 +51,7 @@ export default function TestReceipe() {
               of passages of Lorem Ipsum form any injected humour, or randomised
               words which dont look slightly believable.
             </p>
-            <div className="flex gap-3 mt-10">
+            <div className="flex gap-3 mt-10 py-5">
               <p
                 onClick={() => clickButton("left")}
                 className="w-10 h-10 flex justify-center items-center rounded-full border-2 border-secondary_colour text-secondary_text cursor-pointer"
@@ -71,10 +71,14 @@ export default function TestReceipe() {
             animate={{ opacity: 1, delay: 0.2 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="col-span-5 flex gap-3"
+            className="lg:col-span-5 flex gap-3  lg:relative lg:-right-36"
+            style={{ overflow: "hidden" }}
           >
             {images.slice(startIndex, startIndex + 3).map((image, index) => (
-              <div key={index} className="group relative">
+              <div
+                key={index}
+                className={`group relative ${index === 2 ? "" : ""}`}
+              >
                 <img src={image} alt={`image${startIndex + index + 1}`} />
                 <div className="hidden group-hover:flex absolute inset-0 bg-black bg-opacity-50 text-white items-center justify-start px-7 rounded-2xl">
                   <ul className="list-disc">

@@ -21,7 +21,14 @@
   src: url("../src/assets/Fonts/Abril/Abril_Display_Bold.otf")
     format("opentype");
 }
+.half-outside {
+  position: relative;
+  right: -20%;
+}
 
+body {
+  overflow-x: hidden;
+}
 :root {
   --primary-colour: #270a05;
   --secondary-colour: #86371c;
